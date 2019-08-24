@@ -1,5 +1,6 @@
 import * as _ from 'lodash';
-import { Model } from "mongoose";
+import { Model } from "objection";
+
 
 //common function
 export function convertModelToPlainObject<T extends Model>(model: T) {
